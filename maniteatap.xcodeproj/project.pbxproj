@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54001AB26DCC24B0007ABB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54001AA26DCC24B0007ABB7 /* AppDelegate.swift */; };
+		A54001AD26DCC24B0007ABB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54001AC26DCC24B0007ABB7 /* SceneDelegate.swift */; };
+		A54001B026DCC24B0007ABB7 /* maniteatap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A54001AE26DCC24B0007ABB7 /* maniteatap.xcdatamodeld */; };
+		A54001B226DCC24B0007ABB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54001B126DCC24B0007ABB7 /* ContentView.swift */; };
+		A54001B426DCC24C0007ABB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54001B326DCC24C0007ABB7 /* Assets.xcassets */; };
+		A54001B726DCC24C0007ABB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54001B626DCC24C0007ABB7 /* Preview Assets.xcassets */; };
+		A54001BA26DCC24C0007ABB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54001B826DCC24C0007ABB7 /* LaunchScreen.storyboard */; };
+		A54001C526DCC24C0007ABB7 /* maniteatapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54001C426DCC24C0007ABB7 /* maniteatapTests.swift */; };
+		A54001D026DCC24C0007ABB7 /* maniteatapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54001CF26DCC24C0007ABB7 /* maniteatapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54001C126DCC24C0007ABB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A540019F26DCC24B0007ABB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54001A626DCC24B0007ABB7;
+			remoteInfo = maniteatap;
+		};
+		A54001CC26DCC24C0007ABB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A540019F26DCC24B0007ABB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54001A626DCC24B0007ABB7;
+			remoteInfo = maniteatap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A54001A726DCC24B0007ABB7 /* maniteatap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maniteatap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54001AA26DCC24B0007ABB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A54001AC26DCC24B0007ABB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A54001AF26DCC24B0007ABB7 /* maniteatap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = maniteatap.xcdatamodel; sourceTree = "<group>"; };
+		A54001B126DCC24B0007ABB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54001B326DCC24C0007ABB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54001B626DCC24C0007ABB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A54001B926DCC24C0007ABB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54001BB26DCC24C0007ABB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54001C026DCC24C0007ABB7 /* maniteatapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maniteatapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54001C426DCC24C0007ABB7 /* maniteatapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maniteatapTests.swift; sourceTree = "<group>"; };
+		A54001C626DCC24C0007ABB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54001CB26DCC24C0007ABB7 /* maniteatapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maniteatapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54001CF26DCC24C0007ABB7 /* maniteatapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maniteatapUITests.swift; sourceTree = "<group>"; };
+		A54001D126DCC24C0007ABB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54001A426DCC24B0007ABB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54001BD26DCC24C0007ABB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54001C826DCC24C0007ABB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A540019E26DCC24B0007ABB7 = {
+			isa = PBXGroup;
+			children = (
+				A54001A926DCC24B0007ABB7 /* maniteatap */,
+				A54001C326DCC24C0007ABB7 /* maniteatapTests */,
+				A54001CE26DCC24C0007ABB7 /* maniteatapUITests */,
+				A54001A826DCC24B0007ABB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54001A826DCC24B0007ABB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54001A726DCC24B0007ABB7 /* maniteatap.app */,
+				A54001C026DCC24C0007ABB7 /* maniteatapTests.xctest */,
+				A54001CB26DCC24C0007ABB7 /* maniteatapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54001A926DCC24B0007ABB7 /* maniteatap */ = {
+			isa = PBXGroup;
+			children = (
+				A54001AA26DCC24B0007ABB7 /* AppDelegate.swift */,
+				A54001AC26DCC24B0007ABB7 /* SceneDelegate.swift */,
+				A54001B126DCC24B0007ABB7 /* ContentView.swift */,
+				A54001B326DCC24C0007ABB7 /* Assets.xcassets */,
+				A54001B826DCC24C0007ABB7 /* LaunchScreen.storyboard */,
+				A54001BB26DCC24C0007ABB7 /* Info.plist */,
+				A54001AE26DCC24B0007ABB7 /* maniteatap.xcdatamodeld */,
+				A54001B526DCC24C0007ABB7 /* Preview Content */,
+			);
+			path = maniteatap;
+			sourceTree = "<group>";
+		};
+		A54001B526DCC24C0007ABB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A54001B626DCC24C0007ABB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A54001C326DCC24C0007ABB7 /* maniteatapTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54001C426DCC24C0007ABB7 /* maniteatapTests.swift */,
+				A54001C626DCC24C0007ABB7 /* Info.plist */,
+			);
+			path = maniteatapTests;
+			sourceTree = "<group>";
+		};
+		A54001CE26DCC24C0007ABB7 /* maniteatapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A54001CF26DCC24C0007ABB7 /* maniteatapUITests.swift */,
+				A54001D126DCC24C0007ABB7 /* Info.plist */,
+			);
+			path = maniteatapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54001A626DCC24B0007ABB7 /* maniteatap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54001D426DCC24C0007ABB7 /* Build configuration list for PBXNativeTarget "maniteatap" */;
+			buildPhases = (
+				A54001A326DCC24B0007ABB7 /* Sources */,
+				A54001A426DCC24B0007ABB7 /* Frameworks */,
+				A54001A526DCC24B0007ABB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = maniteatap;
+			productName = maniteatap;
+			productReference = A54001A726DCC24B0007ABB7 /* maniteatap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54001BF26DCC24C0007ABB7 /* maniteatapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54001D726DCC24C0007ABB7 /* Build configuration list for PBXNativeTarget "maniteatapTests" */;
+			buildPhases = (
+				A54001BC26DCC24C0007ABB7 /* Sources */,
+				A54001BD26DCC24C0007ABB7 /* Frameworks */,
+				A54001BE26DCC24C0007ABB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54001C226DCC24C0007ABB7 /* PBXTargetDependency */,
+			);
+			name = maniteatapTests;
+			productName = maniteatapTests;
+			productReference = A54001C026DCC24C0007ABB7 /* maniteatapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A54001CA26DCC24C0007ABB7 /* maniteatapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54001DA26DCC24C0007ABB7 /* Build configuration list for PBXNativeTarget "maniteatapUITests" */;
+			buildPhases = (
+				A54001C726DCC24C0007ABB7 /* Sources */,
+				A54001C826DCC24C0007ABB7 /* Frameworks */,
+				A54001C926DCC24C0007ABB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54001CD26DCC24C0007ABB7 /* PBXTargetDependency */,
+			);
+			name = maniteatapUITests;
+			productName = maniteatapUITests;
+			productReference = A54001CB26DCC24C0007ABB7 /* maniteatapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A540019F26DCC24B0007ABB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Developers;
+				TargetAttributes = {
+					A54001A626DCC24B0007ABB7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A54001BF26DCC24C0007ABB7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A54001A626DCC24B0007ABB7;
+					};
+					A54001CA26DCC24C0007ABB7 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A54001A626DCC24B0007ABB7;
+					};
+				};
+			};
+			buildConfigurationList = A54001A226DCC24B0007ABB7 /* Build configuration list for PBXProject "maniteatap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A540019E26DCC24B0007ABB7;
+			productRefGroup = A54001A826DCC24B0007ABB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54001A626DCC24B0007ABB7 /* maniteatap */,
+				A54001BF26DCC24C0007ABB7 /* maniteatapTests */,
+				A54001CA26DCC24C0007ABB7 /* maniteatapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54001A526DCC24B0007ABB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54001BA26DCC24C0007ABB7 /* LaunchScreen.storyboard in Resources */,
+				A54001B726DCC24C0007ABB7 /* Preview Assets.xcassets in Resources */,
+				A54001B426DCC24C0007ABB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54001BE26DCC24C0007ABB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54001C926DCC24C0007ABB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54001A326DCC24B0007ABB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54001AB26DCC24B0007ABB7 /* AppDelegate.swift in Sources */,
+				A54001B026DCC24B0007ABB7 /* maniteatap.xcdatamodeld in Sources */,
+				A54001B226DCC24B0007ABB7 /* ContentView.swift in Sources */,
+				A54001AD26DCC24B0007ABB7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54001BC26DCC24C0007ABB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54001C526DCC24C0007ABB7 /* maniteatapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54001C726DCC24C0007ABB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54001D026DCC24C0007ABB7 /* maniteatapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54001C226DCC24C0007ABB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54001A626DCC24B0007ABB7 /* maniteatap */;
+			targetProxy = A54001C126DCC24C0007ABB7 /* PBXContainerItemProxy */;
+		};
+		A54001CD26DCC24C0007ABB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54001A626DCC24B0007ABB7 /* maniteatap */;
+			targetProxy = A54001CC26DCC24C0007ABB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54001B826DCC24C0007ABB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54001B926DCC24C0007ABB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54001D226DCC24C0007ABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A54001D326DCC24C0007ABB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54001D526DCC24C0007ABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"maniteatap/Preview Content\"";
+				DEVELOPMENT_TEAM = 93ZK4B4MRX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = maniteatap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.maniteatap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54001D626DCC24C0007ABB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"maniteatap/Preview Content\"";
+				DEVELOPMENT_TEAM = 93ZK4B4MRX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = maniteatap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.maniteatap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A54001D826DCC24C0007ABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZK4B4MRX;
+				INFOPLIST_FILE = maniteatapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.maniteatapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maniteatap.app/maniteatap";
+			};
+			name = Debug;
+		};
+		A54001D926DCC24C0007ABB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZK4B4MRX;
+				INFOPLIST_FILE = maniteatapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.maniteatapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maniteatap.app/maniteatap";
+			};
+			name = Release;
+		};
+		A54001DB26DCC24C0007ABB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZK4B4MRX;
+				INFOPLIST_FILE = maniteatapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.maniteatapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maniteatap;
+			};
+			name = Debug;
+		};
+		A54001DC26DCC24C0007ABB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93ZK4B4MRX;
+				INFOPLIST_FILE = maniteatapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.maniteatapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = maniteatap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54001A226DCC24B0007ABB7 /* Build configuration list for PBXProject "maniteatap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54001D226DCC24C0007ABB7 /* Debug */,
+				A54001D326DCC24C0007ABB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54001D426DCC24C0007ABB7 /* Build configuration list for PBXNativeTarget "maniteatap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54001D526DCC24C0007ABB7 /* Debug */,
+				A54001D626DCC24C0007ABB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54001D726DCC24C0007ABB7 /* Build configuration list for PBXNativeTarget "maniteatapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54001D826DCC24C0007ABB7 /* Debug */,
+				A54001D926DCC24C0007ABB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54001DA26DCC24C0007ABB7 /* Build configuration list for PBXNativeTarget "maniteatapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54001DB26DCC24C0007ABB7 /* Debug */,
+				A54001DC26DCC24C0007ABB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A54001AE26DCC24B0007ABB7 /* maniteatap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A54001AF26DCC24B0007ABB7 /* maniteatap.xcdatamodel */,
+			);
+			currentVersion = A54001AF26DCC24B0007ABB7 /* maniteatap.xcdatamodel */;
+			path = maniteatap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A540019F26DCC24B0007ABB7 /* Project object */;
+}
